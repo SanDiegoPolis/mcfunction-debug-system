@@ -36,6 +36,6 @@ off_tick.mcfunction: 在调试状态关闭后每刻运行一次。
 
 #### 注意事项
 
-1.  调试系统的命名空间叫做debug，调试系统创建了debug计分项和debug计分板对象，请在自定义名称时避免与之冲突；
-2.  直接使用scoreboard players set debug debug <数字>会无法执行on_once和off_once函数，请尽量不要这么做；如果迫不得已这么做，也请尽量填入数字1或0而不是其他值；
+1.  调试系统的命名空间叫做 debug，调试系统创建了 debug 计分项和 debug 计分板对象，请在自定义名称时避免与之冲突；
+2.  直接使用 scoreboard players set debug debug <数字> 会无法执行 on_once 和 off_once 函数，请尽量不要这么做；如果迫不得已这么做，也请尽量填入数字1或0而不是其他值；
 3.  本软件 **不是** 一个独立的数据包，我想再次强调这一点。
