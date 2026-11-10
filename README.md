@@ -16,9 +16,9 @@
 函数：https://minecraft.fandom.com/zh/wiki/%E5%87%BD%E6%95%B0%EF%BC%88Java%E7%89%88%EF%BC%89
 
 #### 安装教程
-1.  下载并解压缩；
-2.  将本文件放置于 <存档名>/datapacks/<数据包名>/data 文件夹内；
-3.  开始使用！
+1. 下载并解压缩，把 `debug` 目录复制到已有数据包的 `data` 目录。
+2. 把 `minecraft/tags/functions/load.json` 和 `tick.json` 放到该数据包的 `data/minecraft/tags/functions` 目录。如果已有同名文件，请保留原有内容，在各自的 `values` 数组中加入 `debug:load` 或 `debug:tick`。
+3. 在游戏中执行 `/reload`，然后用 `/trigger debug` 切换调试状态。
 
 #### 软件架构
 tick.mcfunction: 在每一个游戏刻的开始运行。
